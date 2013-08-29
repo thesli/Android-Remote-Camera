@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">androidQRremoteCamera</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello motherFucking world!</string>
+    <string name="poll">polling!</string>
+    <string name="trythis">ThisWork?</string>
+
+</resources>
