@@ -5,8 +5,6 @@ app.config([
   ($routeProvider)->
 ])
 
-$("button").css("height",$("button").css("width"))
-
 app.factory("socket",
 ()->
   socket = io.connect("http://192.168.1.111:3030")
@@ -29,9 +27,9 @@ fn =
     (data)->
       setTimeout(
         ->
-          $("body").prepend('<img src="../../uploads/abc.jpg" alt="" class="smallimg"/>')
+          $("#imgPreview").prepend('<img src="../../uploads/abc.jpg" alt="" class="smallimg"/>')
           console.log("triggered")
-        1000
+        2000
       )
 
     )

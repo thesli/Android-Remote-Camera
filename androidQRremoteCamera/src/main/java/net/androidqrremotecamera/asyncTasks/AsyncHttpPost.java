@@ -36,7 +36,7 @@ public class AsyncHttpPost extends AsyncTask<String, String, String> {
     @Override
     protected String doInBackground(String... params) {
         DefaultHttpClient httpClient = new DefaultHttpClient();
-        HttpPost httpPost = new HttpPost("http://192.168.1.111/upload");
+        HttpPost httpPost = new HttpPost("http://pella.sytes.net/upload");
         MultipartEntity mpEntity = new MultipartEntity(HttpMultipartMode.BROWSER_COMPATIBLE);
         mpEntity.addPart("file",new FileBody(pic,"image/jpeg"));
 

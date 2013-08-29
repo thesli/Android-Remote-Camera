@@ -7,20 +7,12 @@
 
 <body>
 
-<div ng-controller="mainCtrl">
-    <h1>{{ id }}</h1>
+<div ng-controller="mainCtrl" class='main'>
     <button ng-click="snap()" class="snap">SNAP</button>
     <button ng-click="flash()" class="flash">FLASH</button>
-
 </div>
 
-<form action="/upload" method="POST" enctype="multipart/form-data">
-    <input type="file" name="file"/>
-    <input type="submit"/>
-</form>
-
-<div id="imgPreview">
-
+<div id="imgPreview" align='center'>
 </div>
 
 

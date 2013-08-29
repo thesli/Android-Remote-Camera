@@ -1,5 +1,6 @@
 button{
     width: 49%;
+    height: 50px;
     border: none;
     margin: 0px;
     background-color: ghostwhite;
@@ -12,6 +13,13 @@ body{
 }
 
 .smallimg{
-    width: 250px;
-    height: 250px;
+    width: 90%;
+    height: 90%;
+    display: block;
+    text-align: center;
+}
+.main{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

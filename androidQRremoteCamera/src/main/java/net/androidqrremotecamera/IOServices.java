@@ -43,7 +43,7 @@ public class IOServices extends Service {
 
     private void io() {
         try {
-            socket = new SocketIO("http://192.168.1.111:3030");
+            socket = new SocketIO("http://pella.sytes.net:3030");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
