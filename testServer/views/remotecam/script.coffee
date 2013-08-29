@@ -27,7 +27,7 @@ fn =
     (data)->
       setTimeout(
         ->
-          $("#imgPreview").prepend('<img src="../../uploads/abc.jpg" alt="" class="smallimg"/>')
+          $("#imgPreview").prepend('<img src="../../uploads/abc.jpg?'+(new Date()).toString() + '" alt="" class="smallimg"/>')
           console.log("triggered")
         2000
       )

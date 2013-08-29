@@ -23,7 +23,7 @@ fn = function(s, r, l, socket) {
   });
   return socket.on("newImageExists", function(data) {
     return setTimeout(function() {
-      $("#imgPreview").prepend('<img src="../../uploads/abc.jpg" alt="" class="smallimg"/>');
+      $("#imgPreview").prepend('<img src="../../uploads/abc.jpg?' + (new Date()).toString() + '" alt="" class="smallimg"/>');
       return console.log("triggered");
     }, 2000);
   });
