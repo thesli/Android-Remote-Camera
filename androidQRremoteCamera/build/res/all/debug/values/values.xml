@@ -5,6 +5,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/C:/AndroidProject/androidQRremoteCameraProjectWorking/androidQRremoteCamera/src/main/res/values/ids.xml -->
+    <item name="restartbtn" type="id"/>
     <item name="snap" type="id"/>
     <!-- From: file:/C:/AndroidProject/androidQRremoteCameraProjectWorking/androidQRremoteCamera/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>

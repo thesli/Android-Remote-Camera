@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apache-mime4j-0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/androidQRremoteCamera/libs/apache-mime4j-0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

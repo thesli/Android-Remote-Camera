@@ -14,6 +14,8 @@ app.use(express.bodyParser({
   uploadDir: "uploads"
 }));
 
+app.use("/uploads", express["static"](__dirname + "/uploads"));
+
 app.post("/upload", function(req, res) {
   console.log(req.files);
   console.log(req.files.file.path);
@@ -22,7 +24,9 @@ app.post("/upload", function(req, res) {
       throw err;
     }
     console.log("change to tmp");
-    return io.sockets.on("connection", function(s) {});
+    return io.sockets.emit("newImageExists", {
+      "reload": "now"
+    });
   });
 });
 

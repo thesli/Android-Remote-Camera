@@ -47,15 +47,18 @@
                 <item
                     name="snap"
                     type="id"/>
+                <item
+                    name="restartbtn"
+                    type="id"/>
             </file>
             <file
                 path="C:\AndroidProject\androidQRremoteCameraProjectWorking\androidQRremoteCamera\src\main\res\values\strings.xml"
                 qualifiers="" >
-                <string name="trythis" >ThisWork?
+                <string name="action_settings" >Settings
                 </string>
                 <string name="poll" >polling!
                 </string>
-                <string name="action_settings" >Settings
+                <string name="trythis" >ThisWork?
                 </string>
                 <string name="app_name" >androidQRremoteCamera
                 </string>

@@ -4,8 +4,8 @@
     <list default="true" id="46c3dc39-0838-4849-9b2a-3eebf4267dc6" name="Default" comment="" />
     <ignored path="testServer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/script.coffee" changelist="46c3dc39-0838-4849-9b2a-3eebf4267dc6" time="1377733547847" ignored="false" />
-    <file path="/server.coffee" changelist="46c3dc39-0838-4849-9b2a-3eebf4267dc6" time="1377738624258" ignored="false" />
+    <file path="/script.coffee" changelist="46c3dc39-0838-4849-9b2a-3eebf4267dc6" time="1377786110584" ignored="false" />
+    <file path="/server.coffee" changelist="46c3dc39-0838-4849-9b2a-3eebf4267dc6" time="1377785874562" ignored="false" />
     <file path="/index.html" changelist="46c3dc39-0838-4849-9b2a-3eebf4267dc6" time="1377733466554" ignored="false" />
     <file path="/style.css" changelist="46c3dc39-0838-4849-9b2a-3eebf4267dc6" time="1377717089129" ignored="false" />
     <file path="/dummy.xml" changelist="46c3dc39-0838-4849-9b2a-3eebf4267dc6" time="1377732873931" ignored="false" />
@@ -27,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/remotecam/script.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="33" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+            <state line="34" column="7" selection-start="684" selection-end="684" vertical-scroll-proportion="0.30252102">
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/remotecam/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="18" selection-start="514" selection-end="524" vertical-scroll-proportion="0.0">
+            <state line="33" column="7" selection-start="839" selection-end="839" vertical-scroll-proportion="-21.51724">
               <folding />
             </state>
           </provider>
@@ -54,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="server.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="35" selection-start="555" selection-end="555" vertical-scroll-proportion="0.3529412">
+            <state line="18" column="41" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,8 +78,8 @@
         <option value="$PROJECT_DIR$/views/index.html" />
         <option value="$PROJECT_DIR$/views/remotecam/angular-route.js" />
         <option value="$PROJECT_DIR$/views/remotecam/index.html" />
-        <option value="$PROJECT_DIR$/views/remotecam/script.coffee" />
         <option value="$PROJECT_DIR$/server.coffee" />
+        <option value="$PROJECT_DIR$/views/remotecam/script.coffee" />
       </list>
     </option>
   </component>
@@ -186,9 +186,9 @@
     <property name="options.lastSelected" value="reference.idesettings.emmet" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -250,14 +250,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="30" width="960" height="1050" extended-state="1" />
+    <frame x="960" y="30" width="960" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6707193" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1565126" sideWeight="0.6707193" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1565126" sideWeight="0.6710929" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -356,6 +356,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.coffee">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="35" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/remotecam/script.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/remotecam/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="18" selection-start="514" selection-end="524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/remotecam/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.coffee">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="37" selection-start="483" selection-end="497" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -380,21 +408,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/remotecam/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="514" selection-end="524" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/remotecam/script.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+        <state line="33" column="7" selection-start="839" selection-end="839" vertical-scroll-proportion="-21.51724">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="555" selection-end="555" vertical-scroll-proportion="0.3529412">
+        <state line="18" column="41" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/remotecam/script.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="7" selection-start="684" selection-end="684" vertical-scroll-proportion="0.30252102">
           <folding />
         </state>
       </provider>

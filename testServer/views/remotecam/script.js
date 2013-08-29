@@ -13,8 +13,6 @@ app.factory("socket", function() {
   return socket;
 });
 
-console.log("working");
-
 fn = function(s, r, l, socket) {
   s.snap = function() {
     return socket.emit("snap", "now");
@@ -25,16 +23,12 @@ fn = function(s, r, l, socket) {
   socket.on("snapFinish", function(data) {
     return console.log(data);
   });
-  socket.on("newImageExists", function(data) {
-    return $("");
+  return socket.on("newImageExists", function(data) {
+    return setTimeout(function() {
+      $("body").prepend('<img src="../../uploads/abc.jpg" alt="" class="smallimg"/>');
+      return console.log("triggered");
+    }, 1000);
   });
-  return s.id = l.path();
 };
 
 app.controller("mainCtrl", ["$scope", "$rootScope", "$location", "socket", fn]);
-
-$(document).ready(function() {
-  return setTimeout(function() {
-    return $("#imgPreview").append('<img src="1.gif" alt=""/>');
-  }, 10000);
-});

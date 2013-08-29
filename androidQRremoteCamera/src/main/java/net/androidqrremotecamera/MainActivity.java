@@ -42,6 +42,7 @@ public class MainActivity extends Activity implements Camera.PictureCallback {
     private Handler f;
     File pictureFile;
     Button takePic;
+    Button restart;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -49,6 +50,12 @@ public class MainActivity extends Activity implements Camera.PictureCallback {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
+    }
+
+    public void restartCam(){
+        mCam.stopPreview();
+        mCam.setPreviewCallback(null);
+        mCam.release();
     }
 
     @Override
@@ -103,6 +110,13 @@ public class MainActivity extends Activity implements Camera.PictureCallback {
 
     public void init() {
         poll = (Button) findViewById(R.id.poll);
+        restart = (Button) findViewById(R.id.restartbtn);
+        restart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                restartCam();
+            }
+        });
         h = new Handler(){
             @Override
             public void handleMessage(Message msg) {

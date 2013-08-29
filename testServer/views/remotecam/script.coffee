@@ -8,12 +8,11 @@ app.config([
 $("button").css("height",$("button").css("width"))
 
 app.factory("socket",
-	()->
-		socket = io.connect("http://192.168.1.111:3030")
-		return socket
-	)
+()->
+  socket = io.connect("http://192.168.1.111:3030")
+  return socket
+)
 
-console.log("working")
 fn =
   (s,r,l,socket)->
     s.snap =
@@ -23,27 +22,23 @@ fn =
       ->
         socket.emit("flash","toggle")
     socket.on("snapFinish",
-      (data)->
-        console.log(data)
+    (data)->
+      console.log(data)
     )
     socket.on("newImageExists",
-      (data)->
-        $("")
+    (data)->
+      setTimeout(
+        ->
+          $("body").prepend('<img src="../../uploads/abc.jpg" alt="" class="smallimg"/>')
+          console.log("triggered")
+        1000
+      )
+
     )
-    s.id = l.path()
 
 app.controller(
-	"mainCtrl",
-	[
+  "mainCtrl",
+  [
     "$scope","$rootScope","$location","socket",fn
-	]
-	)
-
-$(document).ready(
-  ->
-    setTimeout(
-      ->
-        $("#imgPreview").append('<img src="1.gif" alt=""/>')
-      10000
-    )
+  ]
 )
