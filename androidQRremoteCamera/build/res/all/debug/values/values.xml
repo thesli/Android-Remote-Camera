@@ -12,6 +12,7 @@
     <string name="app_name">androidQRremoteCamera</string>
     <string name="hello_world">Hello motherFucking world!</string>
     <string name="poll">polling!</string>
+    <string name="restartcam">restartTheCamera</string>
     <string name="trythis">ThisWork?</string>
     <!-- From: file:/C:/AndroidProject/androidQRremoteCameraProjectWorking/androidQRremoteCamera/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">

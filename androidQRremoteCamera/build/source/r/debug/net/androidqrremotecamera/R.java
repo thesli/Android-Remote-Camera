@@ -43,7 +43,8 @@ public final class R {
         public static final int app_name=0x7f060001;
         public static final int hello_world=0x7f060002;
         public static final int poll=0x7f060003;
-        public static final int trythis=0x7f060004;
+        public static final int restartcam=0x7f060004;
+        public static final int trythis=0x7f060005;
     }
     public static final class style {
         /**  From: file:/C:/AndroidProject/androidQRremoteCameraProjectWorking/androidQRremoteCamera/src/main/res/values/styles.xml 

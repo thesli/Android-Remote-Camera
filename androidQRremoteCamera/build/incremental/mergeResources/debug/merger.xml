@@ -54,13 +54,15 @@
             <file
                 path="C:\AndroidProject\androidQRremoteCameraProjectWorking\androidQRremoteCamera\src\main\res\values\strings.xml"
                 qualifiers="" >
-                <string name="action_settings" >Settings
+                <string name="trythis" >ThisWork?
                 </string>
                 <string name="poll" >polling!
                 </string>
-                <string name="trythis" >ThisWork?
+                <string name="action_settings" >Settings
                 </string>
                 <string name="app_name" >androidQRremoteCamera
+                </string>
+                <string name="restartcam" >restartTheCamera
                 </string>
                 <string name="hello_world" >Hello motherFucking world!
                 </string>

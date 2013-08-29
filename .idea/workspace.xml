@@ -94,11 +94,19 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="19" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.5023622" vertical-offset="743" max-vertical-offset="5562">
+            <state line="65" column="23" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.68031496" vertical-offset="738" max-vertical-offset="5958">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3564#3710#0" expanded="true" />
-                <element signature="e#3699#3700#0" expanded="true" />
+                <element signature="e#1709#2072#0" expanded="true" />
+                <element signature="e#2061#2062#0" expanded="true" />
+                <element signature="e#3880#4026#0" expanded="true" />
+                <element signature="e#4015#4016#0" expanded="true" />
+                <element signature="e#4041#4766#0" expanded="true" />
+                <element signature="e#4356#4629#0" expanded="true" />
+                <element signature="e#4606#4607#0" expanded="true" />
+                <element signature="e#4755#4756#0" expanded="true" />
+                <element signature="e#6802#7095#0" expanded="true" />
+                <element signature="e#7068#7069#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +119,33 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="42" column="51" selection-start="1791" selection-end="1791" vertical-scroll-proportion="-30.24" vertical-offset="0" max-vertical-offset="936">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncWriteStuff.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/asyncTasks/AsyncWriteStuff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="61" selection-start="1291" selection-end="1296" vertical-scroll-proportion="-16.5" vertical-offset="237" max-vertical-offset="846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncHttpPost.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/asyncTasks/AsyncHttpPost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="32" selection-start="2046" selection-end="2046" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="1062">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOServices.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/IOServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="13" selection-start="3747" selection-end="3747" vertical-scroll-proportion="0.0" vertical-offset="1381" max-vertical-offset="2016">
               <folding />
             </state>
           </provider>
@@ -159,9 +194,9 @@
       <list>
         <option value="$PROJECT_DIR$/androidQRremoteCamera/build.gradle" />
         <option value="$PROJECT_DIR$/androidQRremoteCamera/src/main/res/menu/main.xml" />
+        <option value="$PROJECT_DIR$/androidQRremoteCamera/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/asyncTasks/AsyncWriteStuff.java" />
         <option value="$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/asyncTasks/AsyncHttpPost.java" />
-        <option value="$PROJECT_DIR$/androidQRremoteCamera/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/MainActivity.java" />
       </list>
     </option>
@@ -307,6 +342,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="androidqrremotecamera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidQRremoteCameraProjectWorking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidQRremoteCameraProjectWorking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidQRremoteCamera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidqrremotecamera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asyncTasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -473,7 +542,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="26" width="1928" height="1058" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -486,13 +555,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31327802" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31327802" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986821" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986821" sideWeight="0.686722" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1960991" sideWeight="0.67116183" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1960991" sideWeight="0.686722" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
@@ -563,13 +632,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/res/menu/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="234">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/asyncTasks/AsyncWriteStuff.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="13" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1026">
@@ -596,8 +658,16 @@
         <state line="121" column="38" selection-start="3949" selection-end="3949" vertical-scroll-proportion="0.0" vertical-offset="2160" max-vertical-offset="5904">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3564#3710#0" expanded="true" />
-            <element signature="e#3699#3700#0" expanded="true" />
+            <element signature="e#1709#2072#0" expanded="true" />
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#3880#4026#0" expanded="true" />
+            <element signature="e#4015#4016#0" expanded="true" />
+            <element signature="e#4041#4766#0" expanded="true" />
+            <element signature="e#4356#4629#0" expanded="true" />
+            <element signature="e#4606#4607#0" expanded="true" />
+            <element signature="e#4755#4756#0" expanded="true" />
+            <element signature="e#6802#7095#0" expanded="true" />
+            <element signature="e#7068#7069#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,20 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/asyncTasks/AsyncHttpPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1116">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/asyncTasks/AsyncWriteStuff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.34578443" vertical-offset="0" max-vertical-offset="937">
@@ -678,13 +734,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/asyncTasks/AsyncWriteStuff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="61" selection-start="1291" selection-end="1296" vertical-scroll-proportion="-16.5" vertical-offset="237" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/IOServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="13" selection-start="3747" selection-end="3747" vertical-scroll-proportion="0.0" vertical-offset="1381" max-vertical-offset="2016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/asyncTasks/AsyncHttpPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="32" selection-start="2046" selection-end="2046" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="1062">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="19" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.5023622" vertical-offset="743" max-vertical-offset="5562">
+        <state line="65" column="23" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.68031496" vertical-offset="738" max-vertical-offset="5958">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3564#3710#0" expanded="true" />
-            <element signature="e#3699#3700#0" expanded="true" />
+            <element signature="e#1709#2072#0" expanded="true" />
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#3880#4026#0" expanded="true" />
+            <element signature="e#4015#4016#0" expanded="true" />
+            <element signature="e#4041#4766#0" expanded="true" />
+            <element signature="e#4356#4629#0" expanded="true" />
+            <element signature="e#4606#4607#0" expanded="true" />
+            <element signature="e#4755#4756#0" expanded="true" />
+            <element signature="e#6802#7095#0" expanded="true" />
+            <element signature="e#7068#7069#0" expanded="true" />
           </folding>
         </state>
       </provider>

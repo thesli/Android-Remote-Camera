@@ -53,11 +53,19 @@ public class MainActivity extends Activity implements Camera.PictureCallback {
     }
 
     public void restartCam(){
-        mCam.setPreviewCallback(null);
-        mCam.stopPreview();
-        mCam.release();
-        mCam = null;
-        startCam();
+        Handler g = new Handler(getApplication().getMainLooper());
+        g.post(new Runnable() {
+            @Override
+            public void run() {
+                mCam.setPreviewCallback(null);
+                mCam.stopPreview();
+                mCam.release();
+                mCam = null;
+                i = new Intent(MainActivity.this, IOServices.class);
+                stopService(i);
+                init();
+            }
+        });
     }
 
     @Override
@@ -124,7 +132,15 @@ public class MainActivity extends Activity implements Camera.PictureCallback {
             public void handleMessage(Message msg) {
 //                Toast.makeText(getApplicationContext(),msg.what,Toast.LENGTH_SHORT).show();
                 if(msg.what == R.string.trythis){
-                    takePic.performClick();
+//                    takePic.performClick();
+                    mCam.autoFocus(new Camera.AutoFocusCallback() {
+                        @Override
+                        public void onAutoFocus(boolean success, Camera camera) {
+                            mCam.takePicture(null, null, MainActivity.this);
+                        }
+                    });
+                }else if(msg.what == R.string.restartcam){
+                    restartCam();
                 }
             }
         };
@@ -161,7 +177,7 @@ public class MainActivity extends Activity implements Camera.PictureCallback {
         f.post(new Runnable() {
             @Override
             public void run() {
-                AsyncWriteStuff w = new AsyncWriteStuff(pictureFile,data,getApplicationContext());
+                AsyncWriteStuff w = new AsyncWriteStuff(pictureFile,data,getApplicationContext(),msger);
                 w.execute();
             }
         });

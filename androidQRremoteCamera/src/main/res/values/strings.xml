@@ -6,5 +6,6 @@
     <string name="hello_world">Hello motherFucking world!</string>
     <string name="poll">polling!</string>
     <string name="trythis">ThisWork?</string>
+    <string name="restartcam">restartTheCamera</string>
 
 </resources>

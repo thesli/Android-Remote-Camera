@@ -1,6 +1,11 @@
 package net.androidqrremotecamera.asyncTasks;
 
 import android.os.AsyncTask;
+import android.os.Message;
+import android.os.Messenger;
+import android.os.RemoteException;
+
+import net.androidqrremotecamera.R;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -21,9 +26,11 @@ public class AsyncHttpPost extends AsyncTask<String, String, String> {
     File pic;
     byte[] data;
     HttpResponse response;
-    public AsyncHttpPost(File pic, byte[] data) {
+    Messenger msger;
+    public AsyncHttpPost(File pic, byte[] data,Messenger msger) {
         this.pic = pic;
         this.data = data;
+        this.msger = msger;
     }
 
     @Override
@@ -51,6 +58,13 @@ public class AsyncHttpPost extends AsyncTask<String, String, String> {
 
     @Override
     protected void onPostExecute(String s) {
+        Message msg;
+        msg = Message.obtain(null,R.string.restartcam);
+        try {
+            msger.send(msg);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
         super.onPostExecute(s);
     }
 }
