@@ -53,9 +53,11 @@ public class MainActivity extends Activity implements Camera.PictureCallback {
     }
 
     public void restartCam(){
-        mCam.stopPreview();
         mCam.setPreviewCallback(null);
+        mCam.stopPreview();
         mCam.release();
+        mCam = null;
+        startCam();
     }
 
     @Override

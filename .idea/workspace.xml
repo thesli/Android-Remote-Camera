@@ -94,11 +94,11 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="60" selection-start="4099" selection-end="4099" vertical-scroll-proportion="0.61574805" vertical-offset="1877" max-vertical-offset="5526">
+            <state line="59" column="19" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.5023622" vertical-offset="743" max-vertical-offset="5562">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3523#3669#0" expanded="true" />
-                <element signature="e#3658#3659#0" expanded="true" />
+                <element signature="e#3564#3710#0" expanded="true" />
+                <element signature="e#3699#3700#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -596,8 +596,8 @@
         <state line="121" column="38" selection-start="3949" selection-end="3949" vertical-scroll-proportion="0.0" vertical-offset="2160" max-vertical-offset="5904">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3523#3669#0" expanded="true" />
-            <element signature="e#3658#3659#0" expanded="true" />
+            <element signature="e#3564#3710#0" expanded="true" />
+            <element signature="e#3699#3700#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -680,11 +680,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/androidQRremoteCamera/src/main/java/net/androidqrremotecamera/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="60" selection-start="4099" selection-end="4099" vertical-scroll-proportion="0.61574805" vertical-offset="1877" max-vertical-offset="5526">
+        <state line="59" column="19" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.5023622" vertical-offset="743" max-vertical-offset="5562">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3523#3669#0" expanded="true" />
-            <element signature="e#3658#3659#0" expanded="true" />
+            <element signature="e#3564#3710#0" expanded="true" />
+            <element signature="e#3699#3700#0" expanded="true" />
           </folding>
         </state>
       </provider>
